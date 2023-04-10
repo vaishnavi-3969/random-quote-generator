@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QOTD: Quote of the Day</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://theysaidso.com/gadgets/v3/theysaidso.js"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>Quote of the Day</h1>
+    </header>
+    <div class="quote-box">
+      <div class="quote-text">
+        <span class="loading-text">Loading...</span>
+        <span class="quote"></span>
+      </div>
+      <div class="quote-author">
+        <span class="loading-text">Loading...</span>
+        <span class="author"></span>
+      </div>
+      <div class="button-container">
+        <button id="new-quote">
+          <p>
+            New Quote
+            <i class="fa fa-refresh"></i>
+          </p>
+        </button>
+        <button id="copy-quote">
+          Copy Quote
+          <i class="fa fa-copy"></i>
+        </button>
+        <br />
+        <button>
+          <p>
+            <!-- Tweet -->
+            <a
+              id="tweet-quote"
+              href="https://twitter.com/intent/tweet"
+              target="_blank"
+              ><i class="fa fa-twitter"></i
+            ></a>
+          </p>
+        </button>
+        <button>
+          <p>
+            <!-- Share on Facebook -->
+            <a id="fb-share" href="#" target="_blank"
+              ><i class="fa fa-facebook"></i
+            ></a>
+          </p>
+        </button>
+        <button>
+          <p>
+            <!-- Pin it -->
+            <a
+              id="pinterest-share"
+              href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.example.com&description=Example%20Quote:%20%22%3Cquote%3E%22%20-%20%3Cauthor%3E&media=https://www.example.com/image.jpg"
+              target="_blank"
+              ><i class="fa fa-pinterest"></i
+            ></a>
+          </p>
+        </button>
+
+        <button>
+          <p>
+            <!-- Share on LinkedIn -->
+            <a
+              id="li-quote"
+              href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.example.com&amp;title=Example%20Quote"
+              target="_blank"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+          </p>
+        </button>
+        <button id="whatsapp-quote">
+          <p>
+            <!-- Share on WhatsApp -->
+            <a
+              id="wa-quote"
+              href="https://wa.me/?text=Example%20Quote%20https%3A%2F%2Fwww.example.com"
+              target="_blank"
+              ><i class="fa fa-whatsapp"></i
+            ></a>
+          </p>
+        </button>
+        <button>
+          <p>
+            <!-- Share via Email -->
+            <a
+              id="email-share"
+              href="mailto:?subject=Quote%20of%20the%20Day&body=Check%20out%20this%20quote:%20%22%3Cquote%3E%22%20-%20%3Cauthor%3E%0A%0A%0A%0ASent%20from%20Quote%20of%20the%20Day"
+              target="_blank"
+              ><i class="fa fa-envelope"></i
+            ></a>
+          </p>
+        </button>
+        <button>
+          <p>
+            <!-- Share on Reddit -->
+            <a
+              id="reddit-quote"
+              href="https://www.reddit.com/submit?url=&title=[quote]"
+              target="_blank"
+              ><i class="fa fa-reddit"></i
+            ></a>
+          </p>
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

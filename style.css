@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@200&family=Ubuntu:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anuphan', sans-serif;
+    font-family: 'Ubuntu', sans-serif;   
+}
+body{
+    background: #c2e59c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+h1 {
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.quote-box{
+    background-color: whitesmoke;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.6);
+    text-align: center;
+    font-size: 30px;
+}
+
+.quote-box h2::after{
+    content: "";
+    width: 100px;
+    height: 3px;
+    border-radius: 3px;
+    background-color: palevioletred;
+    display: block;
+    position: relative;
+    margin: 10px auto;
+    transform: translate(-50%);
+    left: 10%;
+    bottom: 3px;
+}
+
+.quote-box blockquote{
+    font-size: 20px;
+    font-style: italic;
+    color: #555;
+    margin: 40px 0;
+}
+
+
+
+.quote-box span{
+    display: block;
+    font-size: 20px;
+    color: #555;
+    margin: 15px 0;
+}
+
+.quote-box div{
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    display: block;
+}
+
+.quote-box button{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background-color: #64b3f4;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.quote-box button:hover{
+    background-color: #c2e59c;
+    color: black;
+}
+
+
+.tso_default_style {
+    font-size: 20px;
+    color: #555;
+    margin: 40px 0;
+}
+
+.quote-box{
+    background-color: whitesmoke;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.6);
+    text-align: center;
+    font-size: 30px;
+}
+
+.quote-text::before, .quote-text::after{
+    content: '"';
+    font-size: 30px;
+    color: palevioletred;
+} 
+
+
+.quote-author::before{
+    content: '-';
+    font-size: 20px;
+    color: palevioletred;
+}
